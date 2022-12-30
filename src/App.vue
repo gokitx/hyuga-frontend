@@ -14,12 +14,10 @@
 
 <script>
   import leftNav from '@/components/common/leftNav'
-  import HelloWorld from '@/components/HelloWorld'
   export default {
     name: 'App',
     components: {
       leftNav,
-      HelloWorld,
     },
     
   }

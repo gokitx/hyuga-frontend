@@ -7,9 +7,13 @@ import store from "@/store";
 import vuex from 'vuex'
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
+import './assets/scss/aui.scss';
 Vue.use(ElementUI);
 Vue.use(vuex);
 Vue.config.productionTip = false
+import {WOW} from 'wowjs'
+import '../node_modules/wowjs/css/libs/animate.css'
+Vue.prototype.$wow=WOW;
 
 // var store = new vuex.Store({//store对象
 //   state:{

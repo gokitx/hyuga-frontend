@@ -1,0 +1,16 @@
+
+    .aui-content {
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 50px 20px 150px;
+      text-align: center;
+      &__wrapper {
+        height: 100vh;
+        background-color: transparent;
+        overflow-x: hidden;
+        overflow-y: auto;
+      }
+    }
